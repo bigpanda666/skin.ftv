@@ -2,6 +2,7 @@
 <window>
 	<!-- busydialog -->
 	<controls>
+		<visible>![System.HasAddon(script.cinemavision) + !IsEmpty(Window(Home).Property(script.cinemavision.running))]</visible>
 		<!-- Background -->
 		<include>DialogBackgroundImage</include>
 		<!-- Busy -->
